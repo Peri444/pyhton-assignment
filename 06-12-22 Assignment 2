@@ -1,0 +1,11 @@
+n=int(input("Enter any Number:"))
+Rev=0
+while(n>0):
+    Rem=n%10
+    Rev=(Rev*10)+Rem
+    n=n//10
+print("\n Reverse %d",Rev)
+if(Rev==n):
+    print("Palindrome")
+else:
+    print("Not a Palindrome")
