@@ -1,0 +1,5 @@
+n=int(input())
+l=list(map(int,input().split()))
+print(l)
+print("maximum element in the list",max(l))
+print("minimum element in the list",min(l))
