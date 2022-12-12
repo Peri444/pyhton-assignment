@@ -1,0 +1,4 @@
+l=[3,4,5,7,25,76,45]
+print(l)
+print("maximum element in the list",max(l))
+print("minimum element in the list",min(l))
