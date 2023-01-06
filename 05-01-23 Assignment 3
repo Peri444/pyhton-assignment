@@ -1,0 +1,7 @@
+n=int(input())
+eL=list(map(int,input().split()))
+print("List Items = ", eL)
+for i in eL:
+    if (i % 2 == 0):
+        eL.remove(i)   
+print("List Items after removing even Items = ", eL)
