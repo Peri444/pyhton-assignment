@@ -1,0 +1,9 @@
+n=int(input())
+l=list(map(int,input().split()))
+k=int(input())
+l.sort()
+m=l[0:k]
+print(m)
+print(max(m))
+print(min(m))
+print(max(m)-min(m))
